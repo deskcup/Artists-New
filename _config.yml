@@ -1,0 +1,14 @@
+# Site settings
+title: R.PRESS
+email: artist@email.com
+description: "Tiskar // Designer // YouTuber"
+
+#Build settings
+markdown: kramdown
+permalink: pretty
+
+port: 1080
+
+sass_dir: assets/css
+
+
