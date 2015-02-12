@@ -4,7 +4,7 @@
 
 	<div class="face-lockup">
 		
-		<div class="face-img"></div>
+		<div class="face-img" style="background-image: url(/assets/img/{{ site.avatar }});"></div>
 
 		<div class="icon-domov">{% include icons/icon-domov.html %}</div>
 		<div class="icon-navodila">{% include icons/icon-navodila.html %}</div>
@@ -13,10 +13,8 @@
 
 	</div>
 
-	<div class="blurb"
-		<p><span><strong>TEST Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui deserunt quidem adipisci voluptatum,</strong> inventore sequi quas vero error eos culpa impedit suscipit ipsa at id, mollitia veritatis tenetur. Ipsam, accusamus!</span>
-		<span>Reprehenderit quae quis fuga omnis blanditiis itaque facilis natus ut laboriosam, minus. Sequi natus perferendis ducimus accusantium, reiciendis veniam. Libero sint harum voluptatem est quis quos, quam rem quas debitis?</span>
-		</p>
+	<div class="blurb">
+		{{ site.blurb }}
 	</div>
 
 	<div class="skill-lockup">

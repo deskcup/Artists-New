@@ -1,15 +1,15 @@
 header
+	@extend %bg-img
 	height: 450px
-	background: url(../img/radhakundrs.jpg) center center
-	background-size: cover
+	background-position: 30px 20px, 50% 50%
 
-	.logo
-		+size(50px)
-		float: left
-		margin: 10px 0 0 30px
+	// .logo
+	// 	+size(50px)
+	// 	float: left
+	// 	margin: 20px 0 0 30px
 
-		path
-			fill: rgba(255,255,255,0.8)
+	// 	path
+	// 		fill: rgba(255,255,255,0.8)
 
 	nav
 		float: right
@@ -19,7 +19,7 @@ header
 			display: inline-block
 			margin-left: 20px
 
-			color: rgba(255,255,255,0.7)
+			color: rgba(255,255,255,0.8)
 			@extend %small-bold
 
 			&:hover
@@ -35,7 +35,7 @@ header
 		letter-spacing: 0.05em
 		margin-bottom: 20px
 		clear: both
-		padding-top: 100px
+		padding-top: 90px
 
 		span
 			display: inline-block

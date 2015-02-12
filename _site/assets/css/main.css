@@ -195,12 +195,12 @@ hr {
   height: 0; }
 
 a {
-  color: #000;
+  color: #927128;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #d89993; }
+  color: #d4b160; }
 
 ::selection {
   background: #FFF498; }
@@ -226,20 +226,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
 
-header nav a, header .kicker, footer .lockup a, h3 {
+h3 {
+  color: #a27e2c;
+  text-align: center;
+  padding: 100px 0 30px; }
+
+@media screen and (max-width: 480px) {
+  h3 {
+    padding: 50px 0 50px; } }
+h3, header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
 
+header, footer {
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50px 50px, cover;
+  background-position: 30px 50px, 50% 50%;
+  background-blend-mode: overlay, normal; }
+
 header {
   height: 450px;
-  background: url(../img/radhakundrs.jpg) center center;
-  background-size: cover; }
+  background-position: 30px 20px, 50% 50%; }
   header .logo {
     height: 50px;
     width: 50px;
     float: left;
-    margin: 10px 0 0 30px; }
+    margin: 20px 0 0 30px; }
     header .logo path {
       fill: rgba(255, 255, 255, 0.8); }
   header nav {
@@ -248,7 +261,7 @@ header {
     header nav a {
       display: inline-block;
       margin-left: 20px;
-      color: rgba(255, 255, 255, 0.7); }
+      color: rgba(255, 255, 255, 0.8); }
       header nav a:hover {
         color: white; }
   header h1 {
@@ -260,7 +273,7 @@ header {
     letter-spacing: 0.05em;
     margin-bottom: 20px;
     clear: both;
-    padding-top: 100px; }
+    padding-top: 90px; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
@@ -271,41 +284,25 @@ header {
     color: white;
     line-height: 1; }
 
-footer {
-  background: url(../img/radhakundrs.jpg) center center;
-  background-size: cover; }
-  footer .lockup {
-    padding: 50px 30px;
-    color: white; }
-    footer .lockup:after {
-      content: "";
-      display: table;
-      clear: both; }
-    footer .lockup .logo {
-      height: 50px;
-      width: 50px;
-      float: left;
-      margin-right: 30px; }
-      footer .lockup .logo path {
-        fill: white; }
-    footer .lockup a {
+footer .lockup {
+  padding: 50px 30px;
+  color: white; }
+  footer .lockup:after {
+    content: "";
+    display: table;
+    clear: both; }
+  footer .lockup .content-wrap {
+    float: left;
+    margin-left: 80px; }
+    footer .lockup .content-wrap .copyright {
+      text-transform: uppercase;
+      font-size: 12px; }
+    footer .lockup .content-wrap a {
       color: white;
       display: inline-block;
       margin-right: 30px; }
-      footer .lockup a:hover {
-        color: white; }
-    footer .lockup .content-wrap {
-      float: left; }
-    footer .lockup p {
-      margin: 0;
-      text-transform: uppercase;
-      font-size: 12px;
-      font-weight: 700; }
-
-h3 {
-  color: #a27e2c;
-  text-align: center;
-  padding: 100px 0 30px; }
+      footer .lockup .content-wrap a:hover {
+        color: rgba(255, 255, 255, 0.7); }
 
 .face-lockup {
   max-width: 800px;
@@ -326,15 +323,15 @@ h3 {
   -o-align-items: center;
   align-items: center;
   -ms-flex-align: center;
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  box-pack: center;
-  -webkit-justify-content: space-around;
-  -moz-justify-content: space-around;
-  -ms-justify-content: space-around;
-  -o-justify-content: space-around;
-  justify-content: space-around;
-  -ms-flex-pack: center; }
+  -webkit-box-pack: justify;
+  -moz-box-pack: justify;
+  box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: justify; }
   .face-lockup .face-img {
     height: 200px;
     width: 200px;
@@ -348,7 +345,7 @@ h3 {
     order: 3;
     -ms-flex-order: 3; }
   .face-lockup [class^="icon-"] {
-    background: #e5eaee;
+    background: #CED3D6;
     border-radius: 50%;
     fill: #a27e2c; }
     .face-lockup [class^="icon-"].icon-domov {
@@ -420,12 +417,12 @@ h3 {
     float: left; }
   .skill-lockup .skill-icons {
     font-size: 0;
-    margin: 0px 0 30px; }
+    margin: 3px 0 27px; }
     .skill-lockup .skill-icons span {
       display: inline-block;
       height: 14px;
       width: 14px;
-      background-color: #BD5248;
+      background-color: #927128;
       margin-right: 5px;
       border-radius: 50%; }
       .skill-lockup .skill-icons span:after {
@@ -441,6 +438,6 @@ h3 {
   .skill-lockup {
     width: 270px; } }
 .skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
-  background: #e5eaee; }
+  background: #CED3D6; }
 
 /*# sourceMappingURL=main.css.map */

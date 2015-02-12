@@ -1,36 +1,35 @@
 footer
-	background: url(../img/radhakundrs.jpg) center center
-	background-size: cover
+	// background: url(../img/radhakundrs.jpg) center center
+	// background-size: cover
+	@extend %bg-img
 
 	.lockup
 		padding: 50px 30px
-		+clearfix
 		color: rgba(255,255,255,1)
-				
-		.logo
-			+size(50px)
-			float: left
-			margin-right: 30px
+		+clearfix
+
+		// .logo
+		// 	+size(50px)
+		// 	float: left
+		// 	margin-right: 30px
 			
-			path
-				fill: rgba(255,255,255,1)
+		// 	path
+		// 		fill: rgba(255,255,255,1)
 		
-		a
-			@extend %small-bold		
-			color: rgba(255,255,255,1)
-			display: inline-block
-			margin-right: 30px
-
-			&:hover
-				color: rgba(255,255,255,1)
-
 		.content-wrap
 			float: left
+			margin-left: 80px
 
-		p
-			margin: 0
-			text-transform: uppercase
-			font: 
-				size: 12px
-				weight: 700
+			.copyright
+				text-transform: uppercase
+				font-size: 12px
+
+			a
+				@extend %small-bold
+				color: rgba(255,255,255,1)
+				display: inline-block
+				margin-right: 30px
+
+				&:hover
+					color: rgba(255,255,255,0.7)
 

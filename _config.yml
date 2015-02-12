@@ -3,12 +3,20 @@ title: R.PRESS
 email: artist@email.com
 description: "Tiskar // Designer // YouTuber"
 
-#Build settings
+#Site default images and content here!
+logo: logo.svg
+bg-img: radhakundrs.jpg
+
+avatar: face.jpg
+
+blurb: <p><strong>R.PRESS je podjetje za tisk na poslovna darila,</strong> tisk je lahko <a href="http://www.colors.com">barven</a> in večbarven. Polepšajte partnerjem poslovanje s preprostim poklonom.</p>
+
+# Build settings
 markdown: kramdown
 permalink: pretty
 
 port: 1080
 
-sass_dir: assets/css
+# sass_dir: assets/css
 
 

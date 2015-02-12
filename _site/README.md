@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 DevTips-Starter-Kit
 ===================
 
@@ -12,3 +13,7 @@ Watch the video on YouTube
 alt="Watch the video on youtube" />
 
 </a>
+=======
+# Artists-New
+Tutorial page
+>>>>>>> 0039d402a74bf7855dc49f2818e12d84b2e7767f
