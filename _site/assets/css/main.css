@@ -234,7 +234,7 @@ h3 {
 @media screen and (max-width: 480px) {
   h3 {
     padding: 50px 0 50px; } }
-h3, header nav a, header .kicker, footer .lockup .content-wrap a {
+h3, header nav .nav-top, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase; }
@@ -246,23 +246,17 @@ header, footer {
   background-blend-mode: overlay, normal; }
 
 header {
-  height: 450px;
-  background-position: 30px 20px, 50% 50%; }
-  header .logo {
-    height: 50px;
-    width: 50px;
-    float: left;
-    margin: 20px 0 0 30px; }
-    header .logo path {
-      fill: rgba(255, 255, 255, 0.8); }
+  background-image: url(/assets/img/logo.svg), url(/assets/img/radhakundrs.jpg);
+  background-position: 30px 20px, 50% 50%;
+  padding-bottom: 50px; }
   header nav {
     float: right;
     margin: 30px 30px 0 0; }
-    header nav a {
+    header nav .nav-top {
       display: inline-block;
       margin-left: 20px;
       color: rgba(255, 255, 255, 0.8); }
-      header nav a:hover {
+      header nav .nav-top:hover {
         color: white; }
   header h1 {
     text-align: center;
@@ -284,28 +278,30 @@ header {
     color: white;
     line-height: 1; }
 
-footer .lockup {
-  padding: 50px 30px;
-  color: white; }
-  footer .lockup:after {
-    content: "";
-    display: table;
-    clear: both; }
-  footer .lockup .content-wrap {
-    float: left;
-    margin-left: 80px; }
-    footer .lockup .content-wrap .copyright {
-      text-transform: uppercase;
-      font-size: 12px; }
-    footer .lockup .content-wrap a {
-      color: white;
-      display: inline-block;
-      margin-right: 30px; }
-      footer .lockup .content-wrap a:hover {
-        color: rgba(255, 255, 255, 0.7); }
+footer {
+  background-image: url(/assets/img/logo.svg), url(/assets/img/radhakundrs.jpg); }
+  footer .lockup {
+    padding: 50px 30px;
+    color: white; }
+    footer .lockup:after {
+      content: "";
+      display: table;
+      clear: both; }
+    footer .lockup .content-wrap {
+      float: left;
+      margin-left: 80px; }
+      footer .lockup .content-wrap .copyright {
+        text-transform: uppercase;
+        font-size: 12px; }
+      footer .lockup .content-wrap a {
+        color: white;
+        display: inline-block;
+        margin-right: 30px; }
+        footer .lockup .content-wrap a:hover {
+          color: rgba(255, 255, 255, 0.7); }
 
 .face-lockup {
-  max-width: 800px;
+  max-width: 780px;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -336,7 +332,7 @@ footer .lockup {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background: url(/assets/img/face.jpg);
+    background-image: url(/assets/img/face.jpg);
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
     box-ordinal-group: 3;
@@ -345,7 +341,9 @@ footer .lockup {
     order: 3;
     -ms-flex-order: 3; }
   .face-lockup [class^="icon-"] {
-    background: #CED3D6;
+    height: 100px;
+    width: 100px;
+    background: #E0E0E0;
     border-radius: 50%;
     fill: #a27e2c; }
     .face-lockup [class^="icon-"].icon-domov {
@@ -438,6 +436,4 @@ footer .lockup {
   .skill-lockup {
     width: 270px; } }
 .skill-lockup .skill-icons.skill-1 span:nth-child(n+2), .skill-lockup .skill-icons.skill-2 span:nth-child(n+3), .skill-lockup .skill-icons.skill-3 span:nth-child(n+4), .skill-lockup .skill-icons.skill-4 span:nth-child(n+5), .skill-lockup .skill-icons.skill-5 span:nth-child(n+6), .skill-lockup .skill-icons.skill-6 span:nth-child(n+7), .skill-lockup .skill-icons.skill-7 span:nth-child(n+8), .skill-lockup .skill-icons.skill-8 span:nth-child(n+9), .skill-lockup .skill-icons.skill-9 span:nth-child(n+10), .skill-lockup .skill-icons.skill-10 span:nth-child(n+11) {
-  background: #CED3D6; }
-
-/*# sourceMappingURL=main.css.map */
+  background: #E0E0E0; }

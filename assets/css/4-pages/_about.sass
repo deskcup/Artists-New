@@ -1,5 +1,5 @@
 .face-lockup
-	max-width: 800px
+	max-width: 780px
 	+display(flex)
 	margin: 0 auto
 	+align-items(center)
@@ -8,10 +8,11 @@
 	.face-img
 		+size(200px)
 		border-radius: 50%
-		background: url(/assets/img/face.jpg)
+		background-image: url(/assets/img/#{$avatar-path})
 		+order(3)
 
 	[class^="icon-"]
+		+size(100px)
 		background: $bgcolor
 		border-radius: 50%
 		fill: $accent-light

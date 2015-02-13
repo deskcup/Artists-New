@@ -1,0 +1,34 @@
+# Site settings
+title: R.PRESS
+email: artist@email.com
+description: "Tiskar // Pripovedovalec // Prijatelj"
+
+
+#Menu Item List
+menu:
+- {name: About me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contacts'}
+
+
+#Skill List
+skills:
+- {name: Communication, value: '9'}
+- {name: Organization, value: '7'}
+- {name: Learning, value: '6'}
+- {name: Teaching, value: '6'}
+- {name: Planning, value: '7'}
+- {name: Visual Design, value: '5'}
+- {name: UX Design, value: '8'}
+- {name: Programming, value: '6'}
+
+
+# Images
+logo: "logo.svg"
+bg-img: "radhakundrs.jpg"
+avatar: "face.jpg"
+
+
+# About Section
+blurb: <p><strong>R.PRESS je podjetje za tisk na poslovna darila,</strong> tisk je lahko <a href="http://www.colors.com">barven</a> in večbarven. Polepšajte partnerjem poslovanje s preprostim poklonom.</p>
