@@ -1,3 +1,7 @@
+
+#-------------------------------
+# General Site Settings
+
 # Site settings
 title: R.PRESS
 email: artist@email.com
@@ -12,6 +16,19 @@ menu:
 - {name: Contact, url: '#contacts'}
 
 
+# Images
+logo: "logo.svg"
+bg-img: "radhakundrs.jpg"
+avatar: "face.jpg"
+
+
+
+#-------------------------------
+# About Section
+
+blurb: '<p><strong>R.PRESS je podjetje za tisk na poslovna darila,</strong> tisk je lahko <a href="http://www.colors.com">barven</a> in večbarven. Polepšajte partnerjem poslovanje s preprostim poklonom.</p>'
+
+
 #Skill List
 skills:
 - {name: Communication, value: '9'}
@@ -24,11 +41,16 @@ skills:
 - {name: Programming, value: '6'}
 
 
-# Images
-logo: "logo.svg"
-bg-img: "radhakundrs.jpg"
-avatar: "face.jpg"
 
+#-------------------------------
+# Work Section
 
-# About Section
-blurb: <p><strong>R.PRESS je podjetje za tisk na poslovna darila,</strong> tisk je lahko <a href="http://www.colors.com">barven</a> in večbarven. Polepšajte partnerjem poslovanje s preprostim poklonom.</p>
+projects:
+- {name: Typo International, folder: 'proj-1'}
+- {name: American Apparel, folder: 'proj-2'}
+- {name: Crisp Icons, folder: 'proj-3'}
+- {name: For Fun, folder: 'proj-4'}
+- {name: DeskCup, folder: 'proj-5'}
+- {name: Ganga Ma, folder: 'proj-6'}
+- {name: Crossee Cup, folder: 'proj-7'}
+- {name: Air Fly, folder: 'proj-8'}
