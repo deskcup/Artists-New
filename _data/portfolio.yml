@@ -26,7 +26,7 @@ avatar: "face.jpg"
 #-------------------------------
 # About Section
 
-blurb: '<p><strong>R.PRESS je podjetje za tisk na poslovna darila,</strong> tisk je lahko <a href="http://www.colors.com">barven</a> in večbarven. Polepšajte partnerjem poslovanje s preprostim poklonom.</p>'
+blurb: <p><strong>R.PRESS je podjetje za tisk na poslovna darila,</strong> tisk je lahko <a href="http://www.colors.com">barven</a> in večbarven. Polepšajte partnerjem poslovanje s preprostim poklonom.</p>
 
 
 #Skill List
