@@ -24,27 +24,46 @@
 		float: left
 		position: relative
 		padding-top: 17%
+<<<<<<< HEAD
 		overflow: hidden
+=======
+		// overflow: hidden
+>>>>>>> 4be993dc6008bf94688c454005a40df74b2e3977
 		cursor: pointer
 		background:
 			position: center center
 			repeat: no-repeat
 			size: cover
 		+perspective(300px)
+<<<<<<< HEAD
 		@if $animation != "bounceOut"
+=======
+>>>>>>> 4be993dc6008bf94688c454005a40df74b2e3977
 
 		@media screen and (max-width: 760px) 
 			width: 50%
 			padding-top: 21%
 
 		.thumb-overlay
+<<<<<<< HEAD
 			+position(absolute)
+=======
+			+position(absolute, 0% 0px null 0px)
+			height: 100%
+>>>>>>> 4be993dc6008bf94688c454005a40df74b2e3977
 			background: fade-out($accent, 0.4)
 			text-align: center
 			+display(flex)
 			+align-items(center)
 			+justify-content(space-around)
+<<<<<<< HEAD
 			@extend %animationstart_#{$animation}
+=======
+			+transform(matrix3d(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1))
+			opacity: 0
+			+transition(opacity, 300ms, ease-in, 500ms)
+
+>>>>>>> 4be993dc6008bf94688c454005a40df74b2e3977
 
 			strong
 				display: block
@@ -59,7 +78,12 @@
 			z-index: 2
 
 			.thumb-overlay
+<<<<<<< HEAD
 				@extend %#{$animation}
+=======
+				@extend %animation
+				opacity: 1
+>>>>>>> 4be993dc6008bf94688c454005a40df74b2e3977
 
 
 .work-container

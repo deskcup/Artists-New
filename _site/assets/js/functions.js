@@ -1,6 +1,7 @@
 $( document ).ready(function() {
 
   smoothScrool(300);
+<<<<<<< HEAD
   
   workBelt();
   
@@ -8,6 +9,10 @@ $( document ).ready(function() {
 
   clientStuff();
 
+=======
+  workBelt();
+  workLoad();
+>>>>>>> 4be993dc6008bf94688c454005a40df74b2e3977
 });
 
 
@@ -28,7 +33,11 @@ function smoothScrool (duration) {
 }
 
 
+<<<<<<< HEAD
 function workBelt() {
+=======
+function workBelt () {
+>>>>>>> 4be993dc6008bf94688c454005a40df74b2e3977
 	
 	$('.thumb-unit').click(function() {
 		$('.work-belt').css('left','-100%');
@@ -56,6 +65,7 @@ function workLoad() {
 		$('.project-load').html(spinner).load(newHTML);
 		$('.project-title').text(newTitle);
 	});
+<<<<<<< HEAD
 }
 
 
@@ -106,4 +116,6 @@ function clientStuff() {
 
 	});
 
+=======
+>>>>>>> 4be993dc6008bf94688c454005a40df74b2e3977
 }
