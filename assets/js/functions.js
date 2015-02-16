@@ -28,9 +28,8 @@ function smoothScrool (duration) {
 }
 
 
-<<<<<<< HEAD
 function workBelt() {
-
+	
 	$('.thumb-unit').click(function() {
 		$('.work-belt').css('left','-100%');
 		$('.work-container').show();
@@ -57,7 +56,6 @@ function workLoad() {
 		$('.project-load').html(spinner).load(newHTML);
 		$('.project-title').text(newTitle);
 	});
-
 }
 
 
@@ -107,5 +105,5 @@ function clientStuff() {
 			}
 
 	});
-	
+
 }
