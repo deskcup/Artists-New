@@ -1,0 +1,32 @@
+---
+---
+
+
+//------------------------------------------------
+// Transition the image paths from the settings file to usable SASS variables
+$animation: '{{ site.data.portfolio.animation }}'
+$logo-path: '{{ site.data.portfolio.logo }}'
+$bg-img-path: '{{ site.data.portfolio.bg-img }}'
+$avatar-path: '{{ site.data.portfolio.avatar }}'
+
+
+//------------------------------------------------
+// Set colors to usable SASS variables
+$accent: #927128
+$accent-light: #a27e2c
+$bgcolor: #E0E0E0
+
+$docBg: #fff
+$primary-color: #F6C
+$text-color: #777
+$accent-color: #71581F
+$bg-color: #F6F6F8
+$link-color: $accent-light
+$selection-color: #FFF498
+
+
+
+@import '1-tools/-tools-index'
+@import '2-base/-base-index'
+@import '3-modules/-modules-index'
+@import '4-pages/-pages-index'
