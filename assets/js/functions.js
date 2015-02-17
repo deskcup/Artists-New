@@ -6,7 +6,7 @@ $( document ).ready(function() {
   clientStuff();
 
   $("header h1").fitText(1, { minFontSize: '48px', maxFontSize: '72px' });
-	$(".biglink").fitText(1.3);
+	$(".biglink").fitText(1, { minFontSize: '18px', maxFontSize: '48px' });
 	
 	$('textarea').autosize();
 
