@@ -8,14 +8,17 @@
 	.face-img
 		+size(200px)
 		border-radius: 50%
-		background-image: url(/assets/img/#{$avatar-path})
+		background-position: center
+		background-size: cover
+		background-image: url(../img/#{$avatar-path})
 		+order(3)
 
 	[class^="icon-"]
 		+size(100px)
 		background: $bgcolor
 		border-radius: 50%
-		fill: $accent-light
+		fill: $accent
+		+transform(scale(0.8))
 
 		&.icon-domov
 			+order(1)

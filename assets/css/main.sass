@@ -4,25 +4,25 @@
 
 //------------------------------------------------
 // Transition the image paths from the settings file to usable SASS variables
-$animation: '{{ site.data.portfolio.animation }}'
-$logo-path: '{{ site.data.portfolio.logo }}'
-$bg-img-path: '{{ site.data.portfolio.bg-img }}'
-$avatar-path: '{{ site.data.portfolio.avatar }}'
+$animation: {{ site.data.layout.animation }}
+$logo-path: '{{ site.data.layout.logo }}'
+$bg-img-path: '{{ site.data.layout.bg-img }}'
+$avatar-path: '{{ site.data.layout.avatar }}'
 
 
 //------------------------------------------------
 // Set colors to usable SASS variables
-$accent: #927128
-$accent-light: #a27e2c
-$bgcolor: #E0E0E0
+$accent: {{ site.data.layout.accent }}
+$accent-light: {{ site.data.layout.accent-light }}
+$bgcolor: {{ site.data.layout.bgcolor }}
 
-$docBg: #fff
-$primary-color: #F6C
-$text-color: #777
-$accent-color: #71581F
-$bg-color: #F6F6F8
-$link-color: $accent-light
-$selection-color: #FFF498
+$docBg: {{ site.data.layout.docBg }}
+$primary-color: {{ site.data.layout.primary-color }}
+$text-color: {{ site.data.layout.text-color }}
+$accent-color: {{ site.data.layout.accent-color }}
+$bg-color: {{ site.data.layout.bg-color }}
+$link-color: {{ site.data.layout.accent-light }}
+$selection-color: {{ site.data.layout.selection-color }}
 
 
 
